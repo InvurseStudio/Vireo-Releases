@@ -1,0 +1,53 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Vireo</title>
+        <item>
+            <title>0.9.1</title>
+            <pubDate>Thu, 19 Nov 2026 23:50:39 -0500</pubDate>
+            <link>https://github.com/InvurseStudio/Vireo-app</link>
+            <sparkle:version>654</sparkle:version>
+            <sparkle:shortVersionString>0.9.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Vireo 0.9.1
+
+Vireo 0.9.1 runs on **Syrinx**, Vireo's own engine. It replaces the Python server and the separate llama.cpp and MLX runtimes that 0.9 started. Models run directly on your Mac's GPU, and the app is a fraction of the size: one small download with nothing else to install.
+
+Updating keeps your chats, memories, skills, approvals and developer API keys. Your GGUF models stay in your model list. Some 0.9 features aren't in this version yet (listed below).
+
+### One engine, built for Vireo
+
+- **Built for agent work.** Syrinx is built and tuned for the models Vireo recommends, Gemma 4 and Qwen 3.5, and for the way an agent works: long instructions, tool results and checking its work. Going back to a chat picks up where it left off instead of reading the whole conversation again.
+- **Smaller and simpler.** No bundled Python, no background services. Start Model loads the model, and quitting Vireo frees the memory.
+- **GGUF models.** Vireo runs Gemma 4, Qwen 3.5 and Llama models in GGUF format. Models it can't run are hidden from the model picker.
+
+### What's the same
+
+- The agent's tools from 0.9: reading Word, Excel, PowerPoint, PDF, Pages, Numbers and Keynote files, writing Word, Excel, PowerPoint and PDF, filling Word and Pages templates, previewing Office files, the calendar and reminders, Messages, Shortcuts, reading the screen, web search, shell commands, scheduled tasks, skills, memory and searching earlier chats.
+- **Undo this run** still puts back files a reply changed, newest first, and leaves alone anything you changed since.
+- **Settings › Memory, Skills, Approvals and Developer** work as before. The OpenAI-compatible API is still at `http://localhost:3000/v1`, and your keys still work.
+- Quick Ask, the menu bar, Services and Shortcuts actions.
+
+### Your 0.9 files
+
+The first time 0.9.1 opens, it copies your chats, memories, skills and settings into its new folder. It doesn't change anything in 0.9's folder. When you're happy everything came across, **Settings › Advanced › Files from Vireo 0.9** moves your GGUF models into Vireo's Models folder and puts the rest of 0.9's files in the Trash. This can free several gigabytes, and you can still get them back from the Trash.
+
+### Not in 0.9.1
+
+These 0.9 features are gone for now:
+
+- **Coming back in a later update:** attaching pictures (Vireo's engine can't see images yet), watched folders and document search, the daily briefing, and MCP servers.
+- **Removed:** MLX models (use the GGUF version of a model instead), Apple's on-device model, mail triage and the search-service API keys (web search works without one), the iPhone and iPad companion apps, using Vireo on this Mac from another device, the Compare window, and skill suggestions after long tasks.
+- **Scheduled tasks** made in 0.9 aren't carried over. Ask Vireo to set them up again.
+
+The Windows app (0.7.5) connected to a Mac running 0.9. It can't connect to 0.9.1. A new Windows app is on the way.
+
+### Requirements
+
+A Mac with Apple silicon (M1 or later) and macOS 14 or later.
+]]></description>
+            <enclosure url="https://github.com/InvurseStudio/Vireo-app/releases/download/v0.9.1/Vireo-0.9.1-arm64.dmg" length="9628570" type="application/octet-stream" sparkle:edSignature="7JjefLgNH8WfULFdWDCNqGu2mLTEo8hl4JhTHXtxkYiFjLpJAbFHogA3eMKM9J0e1Wk8mSZyB8O4YfETvtqHDA=="/>
+        </item>
+    </channel>
+</rss>
