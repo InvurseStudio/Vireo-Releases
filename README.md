@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <a href="../../releases/latest"><img src="https://img.shields.io/github/v/release/InvurseStudio/Vireo-Releases?label=latest&color=5B4FD6&style=flat-square" alt="Latest release"></a>
+  <a href="../../releases/latest"><img src="https://img.shields.io/github/v/release/InvurseStudio/Vireo-app?label=latest&color=5B4FD6&style=flat-square" alt="Latest release"></a>
   <img src="https://img.shields.io/badge/macOS-14%2B-17171C?logo=apple&logoColor=white&style=flat-square" alt="macOS 14 or later">
   <img src="https://img.shields.io/badge/Apple%20Silicon-M1%20or%20later-17171C?logo=apple&logoColor=white&style=flat-square" alt="Apple Silicon">
   <img src="https://img.shields.io/badge/made%20in-Canada%20%F0%9F%8D%81-C9C1FF?style=flat-square" alt="Made in Canada">
