@@ -30,7 +30,7 @@ Vireo 0.9.2 adds a new model, **Inkling 2 Mini**, and makes the model picker and
 - Inkling 2 Mini carries on quickly in the chat you're in, but its chats aren't saved yet: going back to an earlier Inkling chat reads that conversation again before it answers. Gemma 4 and Qwen 3.5 chats pick up where they left off, as before.
 - Pictures still can't be attached to a chat. Vireo's engine is learning to see images; it isn't in this version yet.
 
-Everything else in [0.9.1](0.9.1.md) is unchanged.
+Everything else in [0.9.1](https://github.com/InvurseStudio/Vireo-app/releases/tag/v0.9.1) is unchanged.
 
 ### Requirements
 
