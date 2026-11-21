@@ -25,6 +25,21 @@
 
 ---
 
+## New in 0.9.2: Inkling 2 Mini
+
+- **A new model.** Thinking Machines' **Inkling 2 Mini** is in Settings › Models for Macs
+  with 48 GB of memory or more: a mixture-of-experts model (26B in all, 3.4B working on
+  each token) that thinks before it answers and uses Vireo's tools. On an M5 Max it reads
+  about 1,450 tokens a second and writes about 50, and it got all 14 of our agent and
+  coding test tasks right.
+- **A more careful model picker.** Versions of a model that Syrinx can't run (such as
+  IQ4_NL, Q2_K and Q3_K) are no longer offered, so Vireo can't suggest a download that
+  won't load.
+- **Less memory held between replies.** At most 4 GB of recent chats stay ready in
+  memory, and older ones already saved to disk are let go when Vireo is idle.
+
+The full list is in the [0.9.2 release notes](../../releases/tag/v0.9.2).
+
 ## New in 0.9.1: Vireo's own engine
 
 Vireo now runs on **[Syrinx](https://github.com/InvurseStudio/Syrinx)**, an engine
@@ -38,7 +53,8 @@ runtimes that 0.9 started.
   the way an agent works: long instructions, tool results and checking its work.
   Going back to a chat picks up where it left off instead of reading the whole
   conversation again.
-- **Straight on your Mac's GPU,** with GGUF models: Gemma 4, Qwen 3.5 and Llama.
+- **Straight on your Mac's GPU,** with GGUF models: Gemma 4, Qwen 3.5, Inkling 2 Mini
+  (from 0.9.2) and Llama.
 
 Updating from 0.9 keeps your chats, memories, skills, approvals and API keys. A few
 0.9 features are gone for now; see [Coming from Vireo 0.9](#coming-from-vireo-09).
@@ -96,7 +112,8 @@ recommends. One small app, nothing else to install.
 <td valign="top">
 
 ### 🔎 Pick your model
-Gemma 4 and Qwen 3.5 are tested and tuned for agent work. Search Hugging Face from
+Gemma 4 and Qwen 3.5 are tested and tuned for agent work, and Inkling 2 Mini is there
+for Macs with 48 GB or more. Search Hugging Face from
 the app for other GGUF models, see at a glance whether one fits your Mac, or add a
 folder of models you already have, such as an LM Studio library.
 
